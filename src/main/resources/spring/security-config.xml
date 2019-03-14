@@ -18,7 +18,7 @@
         <intercept-url pattern="/resources/**" access="permitAll" />
         <intercept-url pattern="/webjars/**" access="permitAll" />
         <intercept-url pattern="/" access="isAuthenticated()" />
-        <intercept-url pattern="/**" access="isAuthenticated()" />
+        <intercept-url pattern="/src/main/java" access="isAuthenticated()" />
     </http>
 
     <!-- Configure Authentication mechanism -->
